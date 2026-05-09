@@ -1,107 +1,85 @@
-# Hotel Management System
+Hotel Management System
 
-A full-stack Hotel Booking and Management System developed to simplify hotel room booking, property management, and customer interaction. The application provides an easy-to-use interface for users to browse rooms, make bookings, and manage hotel-related services efficiently.
+A modern full-stack Hotel Booking and Management System developed for seamless hotel room booking and property management. The project provides users with an intuitive interface to explore hotels, book rooms, and manage reservations efficiently.
 
----
+Built using React, Vite, Tailwind CSS, and Spring Boot for high performance and scalability.
 
-## Features
+Features
+User Authentication & Authorization
+Hotel Room Booking System
+Hotel Listings and Details
+Search & Filter Functionality
+Responsive User Interface
+Booking Management
+Admin Dashboard
+REST API Integration
+Modern UI Components
+Fast Frontend with Vite
+Tech Stack
+Frontend
+React.js
+JavaScript
+Vite
+Tailwind CSS
+Axios
+React Router
+Backend
+Spring Boot
+Java
+REST APIs
+Database
+MongoDB
+UI Libraries
+Radix UI
+Lucide React
+React Hook Form
+Zod
 
-* User Authentication and Authorization
-* Hotel Room Listing and Details
-* Room Booking System
-* Search and Filter Functionality
-* Responsive User Interface
-* Admin Management Features
-* Booking Management
-* Secure Backend API Integration
+Project dependencies and frontend configuration are based on React + Vite setup.
 
----
-
-## Tech Stack
-
-### Frontend
-
-* React.js
-* HTML5
-* CSS3
-* JavaScript
-* Vite
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-
----
-
-## Installation
-
-### Clone the Repository
-
-```bash
+Project Structure
+Hotel-Management-System/
+│
+├── airBnBApp-frontend/
+├── airBnBApp-backend/
+├── README.md
+Installation & Setup
+Clone Repository
 git clone https://github.com/ShiwaniAgarwal2/Hotel-Management-System.git
-```
-
-### Navigate to Project Folder
-
-```bash
-cd Hotel-Management-System
-```
-
-### Install Dependencies
-
-#### Frontend
-
-```bash
+Frontend Setup
 cd airBnBApp-frontend
 npm install
 npm run dev
-```
 
-#### Backend
+Frontend uses Vite development server.
 
-```bash
+Backend Setup
 cd airBnBApp-backend
-npm install
-npm start
-```
 
----
+Run the Spring Boot application using your IDE or:
 
-## Project Structure
+mvn spring-boot:run
+Available Scripts
+npm run dev
+npm run build
+npm run preview
+npm run lint
 
-```text
-Hotel-Management-System
-│
-├── airBnBApp-frontend
-├── airBnBApp-backend
-├── README.md
-```
+Scripts configured through Vite and ESLint.
 
----
-
-## Future Improvements
-
-* Online Payment Integration
-* Email Notifications
-* Hotel Reviews and Ratings
-* Real-Time Room Availability
-* Mobile Application Support
-
----
-
-## Author
+Future Enhancements
+Online Payment Gateway
+Email Notifications
+Hotel Reviews & Ratings
+Real-Time Room Availability
+Mobile Responsive Improvements
+AI-Based Hotel Recommendations
+Author
 
 Shiwani Agarwal
 
-GitHub: [https://github.com/ShiwaniAgarwal2](https://github.com/ShiwaniAgarwal2)
+GitHub: ShiwaniAgarwal2
 
----
+License
 
-## License
-
-This project is developed for learning and educational purposes.
+This project is created for educational and learning purposes.
