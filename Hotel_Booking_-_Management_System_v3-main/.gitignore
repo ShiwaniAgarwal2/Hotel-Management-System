@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.env
+.env.*
+
+# Java / Spring
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
